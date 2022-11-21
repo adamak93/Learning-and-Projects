@@ -1,0 +1,182 @@
+{
+  "main": {
+    "id": "3facc167cda0b9dc",
+    "type": "split",
+    "children": [
+      {
+        "id": "4b3d45e36f57c783",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "39b6419feb2152ce",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Daily Notes/November 21st, 2021.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0230f8c86daab08f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Knowledge/Lorem Ipsum Dolor.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4f357a59d52d1aa1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Problems to Solve/Lorem Ipsum Dolor.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c6aecf57f1759824",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tutorials/Lorem Ipsum Dolor.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e6e83b391f90bac6",
+    "type": "split",
+    "children": [
+      {
+        "id": "18555adc8f0a8cc3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5f7e75401674d33d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "f25141114e5c5d94",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "93dd58847c5a53b7",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "46c0efecc3cdd09a",
+    "type": "split",
+    "children": [
+      {
+        "id": "e45f99554b16ef27",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d7b80cfe79b1a5cd",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Tutorials/Lorem Ipsum Dolor.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c080a60da98f07aa",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Tutorials/Lorem Ipsum Dolor.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "17517d088ee49553",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "84c21d30c6498a82",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Tutorials/Lorem Ipsum Dolor.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "5f7e75401674d33d",
+  "lastOpenFiles": [
+    "Problems to Solve/Lorem Ipsum Dolor.md",
+    "Knowledge/Lorem Ipsum Dolor.md",
+    "Daily Notes/November 21st, 2021.md"
+  ]
+}
