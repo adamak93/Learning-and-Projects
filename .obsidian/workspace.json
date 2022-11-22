@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily Notes/November 21st, 2021.md",
+                "file": "Daily Notes/November 21st, 2022.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Knowledge/Lorem Ipsum Dolor.md",
+                "file": "Knowledge/JavaScript Notes.md",
                 "mode": "source",
                 "source": false
               }
@@ -37,7 +37,31 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Problems to Solve/Lorem Ipsum Dolor.md",
+                "file": "Daily Notes/November 21st, 2022.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "385aa055441af420",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Problems to Solve/GitHub Email Notifier.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b1c748dc423f689b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Problems to Solve/GitHub Email Notifier.md",
                 "mode": "source",
                 "source": false
               }
@@ -49,14 +73,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tutorials/Lorem Ipsum Dolor.md",
+                "file": "Daily Notes/November 21st, 2022.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -122,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tutorials/Lorem Ipsum Dolor.md",
+                "file": "Problems to Solve/GitHub Email Notifier.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tutorials/Lorem Ipsum Dolor.md",
+                "file": "Problems to Solve/GitHub Email Notifier.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tutorials/Lorem Ipsum Dolor.md"
+                "file": "Problems to Solve/GitHub Email Notifier.md"
               }
             }
           }
@@ -173,10 +197,15 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "5f7e75401674d33d",
+  "active": "b1c748dc423f689b",
   "lastOpenFiles": [
-    "Problems to Solve/Lorem Ipsum Dolor.md",
-    "Knowledge/Lorem Ipsum Dolor.md",
-    "Daily Notes/November 21st, 2021.md"
+    "Tutorials/Github Email Notifier.md",
+    "Problems to Solve/GitHub Email Notifier.md",
+    "Knowledge/JavaScript Notes.md",
+    "Knowledge/GitHub Email Notifier.md",
+    "Daily Notes/November 22nd, 2022.md",
+    "Daily Notes/November 21st, 2022.md",
+    "Knowledge/HerokuCLIGitinstructions.png",
+    "HerokuCLIGitinstructions.png"
   ]
 }
