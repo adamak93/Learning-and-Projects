@@ -61,6 +61,90 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Daily Notes/November 24th, 2022.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a24b89966b4b9719",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Daily Notes/November 25th 2022.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "368e4526a0d8eba2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Daily Notes/November 26th, 2022.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "feeb5996481b0e02",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Knowledge/GitHub Email Notifier.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8b441d07221b834c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Knowledge/GitHub Email Notifier.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5139f15e98b5494e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Daily Notes/November 27th, 2022.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ebd1dc0f7ed7bcda",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Daily Notes/November 28th, 2022.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a223ff9c2d1ab70f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Problems to Solve/GitHub Email Notifier.md",
                 "mode": "source",
                 "source": false
@@ -80,7 +164,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 11
       }
     ],
     "direction": "vertical"
@@ -197,15 +281,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "b1c748dc423f689b",
+  "active": "a223ff9c2d1ab70f",
   "lastOpenFiles": [
+    "Knowledge/Node-Cron.md",
+    "Daily Notes/November 28th, 2022.md",
+    "Daily Notes/November 27th, 2022.md",
     "Tutorials/Github Email Notifier.md",
-    "Problems to Solve/GitHub Email Notifier.md",
-    "Knowledge/JavaScript Notes.md",
+    "Daily Notes/November 26th, 2022.md",
+    "Daily Notes/November 25th 2022.md",
+    "Knowledge/Supabase.md",
     "Knowledge/GitHub Email Notifier.md",
-    "Daily Notes/November 22nd, 2022.md",
-    "Daily Notes/November 21st, 2022.md",
-    "Knowledge/HerokuCLIGitinstructions.png",
-    "HerokuCLIGitinstructions.png"
+    "Knowledge/ReactAdmin.md",
+    "Daily Notes/November 24th, 2022.md"
   ]
 }
