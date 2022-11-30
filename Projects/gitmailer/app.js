@@ -1,4 +1,12 @@
 "use strict";
+
+    
+var cron = require('node-cron');
+
+cron.schedule('* * * * *', () => {
+    console.log('running a task every minute');
+});
+          
 const nodemailer = require("nodemailer");
 
 // async..await is not allowed in global scope, must use a wrapper
