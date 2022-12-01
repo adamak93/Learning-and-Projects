@@ -1,46 +1,38 @@
-"use strict";
-
-    
-var cron = require('node-cron');
-
-cron.schedule('* * * * *', () => {
-    console.log('running a task every minute');
-});
-          
+"use strict"
+require('dotenv').config()
+const cron = require('node-cron');
 const nodemailer = require("nodemailer");
 
-// async..await is not allowed in global scope, must use a wrapper
-async function main() {
-  // Generate test SMTP service account from ethereal.email
-  // Only needed if you don't have a real mail account for testing
-  let testAccount = await nodemailer.createTestAccount();
 
-  // create reusable transporter object using the default SMTP transport
-  let transporter = nodemailer.createTransport({
-    host: "smtp.ethereal.email",
-    port: 587,
-    secure: false, // true for 465, false for other ports
-    auth: {
-      user: testAccount.user, // generated ethereal user
-      pass: testAccount.pass, // generated ethereal password
+const mailOptions = {
+    from: process.env.FROM_EMAIL,
+    to: process.env.TO_EMAIL,
+    subject: 'Git Repo Status Alert' ,
+    text: 'Hello! We are writing to inform you that you have not submitted a Git commit to the Learning and Projects repository in the last 24 hours.',
+};
+
+const transporter = nodemailer.createTransport({
+    host:"smtp-mail.outlook.com",
+    secureConnection: false, // TLS requires secureConnection to be false
+    port: 587, 
+    tls: {
+       ciphers:'SSLv3'
     },
+    auth: {
+        user: mailOptions.from,
+        pass: process.env.FROM_PASSWORD
+    }
+});
+
+cron.schedule('0 0 * * *', () => {
+    transporter.sendMail(mailOptions, (error, info) => {
+        if(error) {
+            console.log(error);
+        } else {
+            console.log('Email send: ' + info.response);
+        }
+    });
+  }, {
+    scheduled: true,
+    timezone: "America/Toronto"
   });
-
-  // send mail with defined transport object
-  let info = await transporter.sendMail({
-    from: '"Fred Foo 👻" <foo@example.com>', // sender address
-    to: "bar@example.com, baz@example.com", // list of receivers
-    subject: "Hello ✔", // Subject line
-    text: "Hello world?", // plain text body
-    html: "<b>Hello world?</b>", // html body
-  });
-
-  console.log("Message sent: %s", info.messageId);
-  // Message sent: <b658f8ca-6296-ccf4-8306-87d57a0b4321@example.com>
-
-  // Preview only available when sending through an Ethereal account
-  console.log("Preview URL: %s", nodemailer.getTestMessageUrl(info));
-  // Preview URL: https://ethereal.email/message/WaQKMgKddxQDoou...
-}
-
-main().catch(console.error);
