@@ -1,7 +1,21 @@
 "use strict"
-require('dotenv').config()
+
+require('dotenv').config();
+const { Octokit } = require("@octokit/rest");
 const cron = require('node-cron');
 const nodemailer = require("nodemailer");
+
+const octokit = new Octokit({ 
+    auth: process.env.GH_KEY 
+});
+
+async function getLogin() {
+    const { data } = await octokit.request("/user");
+    console.log(data);
+};
+
+getLogin();
+
 
 
 const mailOptions = {
