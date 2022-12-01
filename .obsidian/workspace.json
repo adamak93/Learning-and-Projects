@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily Notes/November 21st, 2022.md",
+                "file": "Daily Notes/1 - November 21st, 2022.md",
                 "mode": "source",
                 "source": false
               }
@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily Notes/November 21st, 2022.md",
+                "file": "Daily Notes/1 - November 21st, 2022.md",
                 "mode": "source",
                 "source": false
               }
@@ -66,9 +66,57 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "3809e3169f2b9c87",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Daily Notes/9 - November 29th, 2022.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "937f3c827de48ede",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Daily Notes/9 - November 29th, 2022.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1bf64e7be37cb7d9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Daily Notes/10 - November 30th, 2022.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "89eac0ceb165cdcf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Daily Notes/11 - December 1st, 2022.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -134,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Knowledge/GitHub Email Notifier.md",
+                "file": "Daily Notes/11 - December 1st, 2022.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +199,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Knowledge/GitHub Email Notifier.md",
+                "file": "Daily Notes/11 - December 1st, 2022.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +222,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Knowledge/GitHub Email Notifier.md"
+                "file": "Daily Notes/11 - December 1st, 2022.md"
               }
             }
           }
@@ -185,17 +233,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "b1c748dc423f689b",
+  "active": "89eac0ceb165cdcf",
   "lastOpenFiles": [
-    "Daily Notes/November 24th, 2022.md",
-    "Problems to Solve/GitHub Email Notifier.md",
-    "Knowledge/Node-Cron.md",
-    "Daily Notes/November 28th, 2022.md",
-    "Daily Notes/November 27th, 2022.md",
-    "Tutorials/Github Email Notifier.md",
-    "Daily Notes/November 26th, 2022.md",
-    "Daily Notes/November 25th 2022.md",
-    "Knowledge/Supabase.md",
-    "Knowledge/GitHub Email Notifier.md"
+    "Daily Notes/10 - November 30th, 2022.md",
+    "Daily Notes/11 - December 1st, 2022.md",
+    "Knowledge/GitHub Email Notifier.md",
+    "Daily Notes/9 - November 29th, 2022.md",
+    "Daily Notes/8 - November 28th, 2022.md",
+    "Daily Notes/7 - November 27th, 2022.md",
+    "Daily Notes/6 - November 26th, 2022.md",
+    "Daily Notes/5 - November 25th 2022.md",
+    "Daily Notes/4 - November 24th, 2022.md",
+    "Daily Notes/1 - November 21st, 2022.md"
   ]
 }

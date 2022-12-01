@@ -40,3 +40,5 @@ You can now change your main deploy branch from "master" to "main" for both manu
 For existing repositories, simply add the `heroku` remote
 
 $ heroku git:remote -a githubemailnotifier"
+
+[Check if a Date is within 24 hours in JavaScript | bobbyhadz](https://bobbyhadz.com/blog/javascript-check-if-date-is-within-24-hours#:~:text=To%20check%20if%20a%20date%20is%20within%2024,hours%20between%20the%20dates%20are%20less%20than%2024.)
