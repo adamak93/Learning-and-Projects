@@ -54,7 +54,7 @@ const transporter = nodemailer.createTransport({
     }
 });
 
-cron.schedule('59 23 * * * ', () => {
+cron.schedule('59 23 * * 1-5 ', () => {
     getCommitsByDay();
     if (commitDate == currentLocaleDate) {
         transporter.sendMail(mailCommitOptions, (error, info) => {
