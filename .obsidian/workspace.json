@@ -121,14 +121,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily Notes/11 - December 1st, 2022.md",
+                "file": "Daily Notes/12- December 2nd, 2022.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c7125020aec1166f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Daily Notes/13 - December 3rd, 2022.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -194,7 +206,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily Notes/11 - December 1st, 2022.md",
+                "file": "Daily Notes/13 - December 3rd, 2022.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -211,7 +223,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daily Notes/11 - December 1st, 2022.md",
+                "file": "Daily Notes/13 - December 3rd, 2022.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -234,7 +246,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily Notes/11 - December 1st, 2022.md"
+                "file": "Daily Notes/13 - December 3rd, 2022.md"
               }
             }
           }
@@ -245,7 +257,7 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "a59a3682266d08d9",
+  "active": "c7125020aec1166f",
   "lastOpenFiles": [
     "Daily Notes/12- December 2nd, 2022.md",
     "Daily Notes/11 - December 1st, 2022.md",
