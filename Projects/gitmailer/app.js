@@ -26,10 +26,12 @@ async function getCommitsByDay() {
 
 const fromEmail = process.env.FROM_EMAIL;
 const toEmail =  process.env.TO_EMAIL;
+const ccEmail =  process.env.CC_EMAIL;
 
 const mailNoCommitOptions = {
     from: fromEmail,
     to: toEmail,
+    cc: ccEmail,
     subject: 'Git Repo Status Alert' ,
     text: 'Hello! We are writing to inform you that you have not submitted a Git commit to the Learning and Projects repository in the last 24 hours. Do better.',
 };
@@ -37,6 +39,7 @@ const mailNoCommitOptions = {
 const mailCommitOptions = {
     from: fromEmail,
     to: toEmail,
+    cc: ccEmail,
     subject: 'Git Repo Status Alert' ,
     text: 'Hello! We are writing to inform you that a Git commit has been submitted to the Learning and Projects repository in the last 24 hours. Keep up the great work!!',
 };
@@ -57,6 +60,7 @@ const transporter = nodemailer.createTransport({
 cron.schedule('59 23 * * 1-5 ', () => {
     getCommitsByDay();
     if (commitDate == currentLocaleDate) {
+        console.log("Commit Detected! Sending success email.")
         transporter.sendMail(mailCommitOptions, (error, info) => {
             if(error) {
                 console.log(error);
@@ -66,6 +70,7 @@ cron.schedule('59 23 * * 1-5 ', () => {
         });
     } else {
         transporter.sendMail(mailNoCommitOptions, (error, info) => {
+            console.log(" No Commit Detected! Sending failure email.")
             if(error) {
                 console.log(error);
             } else {

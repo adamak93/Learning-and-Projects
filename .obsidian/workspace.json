@@ -133,7 +133,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily Notes/13 - December 3rd, 2022.md",
+                "file": "Daily Notes/14 - December 5th, 2022.md",
                 "mode": "source",
                 "source": false
               }
@@ -206,7 +206,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily Notes/13 - December 3rd, 2022.md",
+                "file": "Daily Notes/14 - December 5th, 2022.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -223,7 +223,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daily Notes/13 - December 3rd, 2022.md",
+                "file": "Daily Notes/14 - December 5th, 2022.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -246,7 +246,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily Notes/13 - December 3rd, 2022.md"
+                "file": "Daily Notes/14 - December 5th, 2022.md"
               }
             }
           }
@@ -259,6 +259,8 @@
   },
   "active": "c7125020aec1166f",
   "lastOpenFiles": [
+    "Daily Notes/13 - December 3rd, 2022.md",
+    "Daily Notes/14 - December 5th, 2022.md",
     "Daily Notes/12- December 2nd, 2022.md",
     "Daily Notes/11 - December 1st, 2022.md",
     "Daily Notes/10 - November 30th, 2022.md",
@@ -266,8 +268,6 @@
     "Daily Notes/9 - November 29th, 2022.md",
     "Daily Notes/8 - November 28th, 2022.md",
     "Daily Notes/7 - November 27th, 2022.md",
-    "Daily Notes/6 - November 26th, 2022.md",
-    "Daily Notes/5 - November 25th 2022.md",
-    "Daily Notes/4 - November 24th, 2022.md"
+    "Daily Notes/6 - November 26th, 2022.md"
   ]
 }
