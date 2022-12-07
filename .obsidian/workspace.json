@@ -145,14 +145,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Knowledge/MaterialUI.md",
+                "file": "Problems to Solve/GitHub Email Notifier.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cc2885d07cb80656",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tutorials/Github Email Notifier.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cf457ac0bf47cf57",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tutorials/React Apps to Build.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 11
+        "currentTab": 13
       }
     ],
     "direction": "vertical"
@@ -218,7 +242,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Knowledge/MaterialUI.md",
+                "file": "Tutorials/React Apps to Build.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -235,7 +259,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Knowledge/MaterialUI.md",
+                "file": "Tutorials/React Apps to Build.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -258,7 +282,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Knowledge/MaterialUI.md"
+                "file": "Tutorials/React Apps to Build.md"
               }
             }
           }
@@ -269,17 +293,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "c26d543c24fd7b79",
+  "active": "cf457ac0bf47cf57",
   "lastOpenFiles": [
-    "Pasted image 20221206230801.png.md",
-    "Knowledge/MaterialUI.md",
-    "Knowledge/Node-Cron.md",
+    "Tutorials/Github Email Notifier.md",
+    "Problems to Solve/Untitled.md",
+    "Problems to Solve/GitHub Email Notifier.md",
+    "Knowledge/Supabase products.png",
     "Knowledge/ReactAdmin.md",
+    "Knowledge/Node-Cron.md",
+    "Knowledge/MaterialUI.md",
+    "Pasted image 20221206230801.png.md",
     "Knowledge/Pasted image 20221206230801.png",
-    "Knowledge/ReactAdminDashboard.md",
-    "Knowledge/Supabase.md",
-    "Daily Notes/14 - December 5th, 2022.md",
-    "Daily Notes/13 - December 3rd, 2022.md",
-    "Daily Notes/12- December 2nd, 2022.md"
+    "Knowledge/ReactAdminDashboard.md"
   ]
 }
