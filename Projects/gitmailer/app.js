@@ -4,7 +4,6 @@ require('dotenv').config();
 const { Octokit } = require("@octokit/rest");
 const cron = require('node-cron');
 const nodemailer = require("nodemailer");
-const moment = require("moment");
 
 const octokit = new Octokit({ 
     auth: process.env.GH_KEY,

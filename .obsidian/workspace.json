@@ -133,14 +133,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily Notes/14 - December 5th, 2022.md",
+                "file": "Knowledge/ReactAdminDashboard.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c26d543c24fd7b79",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Knowledge/MaterialUI.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 10
+        "currentTab": 11
       }
     ],
     "direction": "vertical"
@@ -206,7 +218,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily Notes/14 - December 5th, 2022.md",
+                "file": "Knowledge/MaterialUI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -223,7 +235,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daily Notes/14 - December 5th, 2022.md",
+                "file": "Knowledge/MaterialUI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -246,7 +258,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily Notes/14 - December 5th, 2022.md"
+                "file": "Knowledge/MaterialUI.md"
               }
             }
           }
@@ -257,17 +269,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "c7125020aec1166f",
+  "active": "c26d543c24fd7b79",
   "lastOpenFiles": [
-    "Daily Notes/13 - December 3rd, 2022.md",
+    "Pasted image 20221206230801.png.md",
+    "Knowledge/MaterialUI.md",
+    "Knowledge/Node-Cron.md",
+    "Knowledge/ReactAdmin.md",
+    "Knowledge/Pasted image 20221206230801.png",
+    "Knowledge/ReactAdminDashboard.md",
+    "Knowledge/Supabase.md",
     "Daily Notes/14 - December 5th, 2022.md",
-    "Daily Notes/12- December 2nd, 2022.md",
-    "Daily Notes/11 - December 1st, 2022.md",
-    "Daily Notes/10 - November 30th, 2022.md",
-    "Knowledge/GitHub Email Notifier.md",
-    "Daily Notes/9 - November 29th, 2022.md",
-    "Daily Notes/8 - November 28th, 2022.md",
-    "Daily Notes/7 - November 27th, 2022.md",
-    "Daily Notes/6 - November 26th, 2022.md"
+    "Daily Notes/13 - December 3rd, 2022.md",
+    "Daily Notes/12- December 2nd, 2022.md"
   ]
 }
