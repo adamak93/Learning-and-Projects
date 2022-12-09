@@ -8,175 +8,31 @@
         "type": "tabs",
         "children": [
           {
-            "id": "39b6419feb2152ce",
+            "id": "8d814d5d6b78c10a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily Notes/1 - November 21st, 2022.md",
+                "file": "Daily Notes/16 - December 7th, 2022.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "0230f8c86daab08f",
+            "id": "ae88218c8c7bbcbd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Knowledge/JavaScript Notes.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4f357a59d52d1aa1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Daily Notes/1 - November 21st, 2022.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "385aa055441af420",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Problems to Solve/GitHub Email Notifier.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b1c748dc423f689b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Knowledge/GitHub Email Notifier.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3809e3169f2b9c87",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Daily Notes/9 - November 29th, 2022.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "937f3c827de48ede",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Daily Notes/9 - November 29th, 2022.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1bf64e7be37cb7d9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Daily Notes/10 - November 30th, 2022.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "89eac0ceb165cdcf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Daily Notes/11 - December 1st, 2022.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a59a3682266d08d9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Daily Notes/12- December 2nd, 2022.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c7125020aec1166f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Knowledge/ReactAdminDashboard.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c26d543c24fd7b79",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Problems to Solve/GitHub Email Notifier.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cc2885d07cb80656",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Tutorials/Github Email Notifier.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cf457ac0bf47cf57",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Tutorials/React Apps to Build.md",
+                "file": "Daily Notes/17 - December 9th, 2022.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 13
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -242,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tutorials/React Apps to Build.md",
+                "file": "Daily Notes/17 - December 9th, 2022.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -259,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tutorials/React Apps to Build.md",
+                "file": "Daily Notes/17 - December 9th, 2022.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -282,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tutorials/React Apps to Build.md"
+                "file": "Daily Notes/17 - December 9th, 2022.md"
               }
             }
           }
@@ -293,17 +149,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "cf457ac0bf47cf57",
+  "active": "ae88218c8c7bbcbd",
   "lastOpenFiles": [
+    "Daily Notes/16 - December 7th, 2022.md",
+    "Daily Notes/15 - December 6th, 2022.md",
+    "Daily Notes/14 - December 5th, 2022.md",
+    "Daily Notes/13 - December 3rd, 2022.md",
+    "Daily Notes/17 - December 9th, 2022.md",
+    "Knowledge/React Apps to Build.md",
     "Tutorials/Github Email Notifier.md",
     "Problems to Solve/Untitled.md",
     "Problems to Solve/GitHub Email Notifier.md",
-    "Knowledge/Supabase products.png",
-    "Knowledge/ReactAdmin.md",
-    "Knowledge/Node-Cron.md",
-    "Knowledge/MaterialUI.md",
-    "Pasted image 20221206230801.png.md",
-    "Knowledge/Pasted image 20221206230801.png",
-    "Knowledge/ReactAdminDashboard.md"
+    "Knowledge/Supabase products.png"
   ]
 }

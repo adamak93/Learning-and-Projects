@@ -4,12 +4,9 @@ require('dotenv').config();
 const { Octokit } = require("@octokit/rest");
 const cron = require('node-cron');
 const nodemailer = require("nodemailer");
-
 const octokit = new Octokit({ 
-    auth: process.env.GH_KEY,
-    
+    auth: process.env.GH_KEY, 
 });
-
 var commitDate = ""; 
 var currentLocaleDate ="";
 
@@ -22,25 +19,12 @@ async function getCommitsByDay() {
     commitDate = (data[0].commit.author.date).slice(0,10);
 };
 
-
-const fromEmail = process.env.FROM_EMAIL;
-const toEmail =  process.env.TO_EMAIL;
-const ccEmail =  process.env.CC_EMAIL;
-
 const mailNoCommitOptions = {
-    from: fromEmail,
-    to: toEmail,
-    cc: ccEmail,
+    from:  process.env.FROM_EMAIL,
+    to: process.env.TO_EMAIL,
+    cc: process.env.CC_EMAIL,
     subject: 'Git Repo Status Alert' ,
-    text: 'Hello! We are writing to inform you that you have not submitted a Git commit to the Learning and Projects repository in the last 24 hours. Do better.',
-};
-
-const mailCommitOptions = {
-    from: fromEmail,
-    to: toEmail,
-    cc: ccEmail,
-    subject: 'Git Repo Status Alert' ,
-    text: 'Hello! We are writing to inform you that a Git commit has been submitted to the Learning and Projects repository in the last 24 hours. Keep up the great work!!',
+    text: 'Hello! We are writing to inform you a Git commit has NOT been submitted to the Learning and Projects repository in the last 24 hours.',
 };
 
 const transporter = nodemailer.createTransport({
@@ -51,33 +35,24 @@ const transporter = nodemailer.createTransport({
        ciphers:'SSLv3'
     },
     auth: {
-        user: fromEmail,
+        user: process.env.FROM_EMAIL,
         pass: process.env.FROM_PASSWORD
     }
 });
 
-cron.schedule('59 23 * * 1-5 ', () => {
+cron.schedule('59 23 * * 1-6 ', () => {
     getCommitsByDay();
-    if (commitDate == currentLocaleDate) {
-        console.log("Commit Detected! Sending success email.")
-        transporter.sendMail(mailCommitOptions, (error, info) => {
+    if (currentLocaleDate != commitDate ) {
+        console.log("No Commit Detected! Sending failure notification email.")
+        transporter.sendMail(mailNoCommitOptions, (error, info) => {
             if(error) {
                 console.log(error);
-            } else {
-                console.log('Email send: ' + info.response);
             }
         });
     } else {
-        transporter.sendMail(mailNoCommitOptions, (error, info) => {
-            console.log(" No Commit Detected! Sending failure email.")
-            if(error) {
-                console.log(error);
-            } else {
-                console.log('Email send: ' + info.response);
-            }
-        });
+        console.log("Commit detected, exiting loop")
     }
-    }, {
+}, {
     scheduled: true,
     timezone: "America/Toronto"
   });
