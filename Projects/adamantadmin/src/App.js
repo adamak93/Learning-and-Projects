@@ -15,6 +15,8 @@ import Dashboard from "./scenes/dashboard";
 // import Geography from "./scenes/geography";
 // import Calendar from "./scenes/calendar";
 
+//Deadline: Friday
+
 function App() {
   const [theme, colorMode] = useMode();
   return (
