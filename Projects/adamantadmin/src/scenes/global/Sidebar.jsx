@@ -59,8 +59,10 @@ const Sidebar = () => {
                 alignItems="center"
                 ml="15px"
               >
-                <Typography variant="h3" color={colors.grey[100]}>ADAMANT ADMIN</Typography>
-                <IconButton onClick={()=> setIsCollapsed(!isCollapsed)}>
+                <Typography variant="h3" color={colors.grey[100]}>
+                  ADAMANT ADMIN
+                </Typography>
+                <IconButton onClick={() => setIsCollapsed(!isCollapsed)}>
                   <MenuOutlinedIcon />
                 </IconButton>
               </Box>
@@ -70,15 +72,30 @@ const Sidebar = () => {
           {!isCollapsed && (
             <Box>
               <Box>
-                <img />
+                <img
+                  alt="profile-user"
+                  width="100px"
+                  height="100px"
+                  src={`../../assets/user.png`}
+                  style={{ cursor: "pointer", borderRadius: "50%" }}
+                />
               </Box>
               <Box>
-                <Typography>Adam Khafagy</Typography>
-                <Typography>Adamant Industries</Typography>
+                <Typography
+                  variant="h2"
+                  color={colors.grey[100]}
+                  fontWeight="bold"
+                  sx={{m: "10px 0 0 0" }}
+                >
+                  Adam Khafagy
+                </Typography>
+                <Typography
+                  variant="h5"
+                  color={colors.greenAccent[500]}
+                >Adamant Industries</Typography>
               </Box>
             </Box>
           )}
-
         </Menu>
       </ProSidebar>
     </Box>
