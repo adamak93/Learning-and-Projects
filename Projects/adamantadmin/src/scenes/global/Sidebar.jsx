@@ -80,7 +80,7 @@ const Sidebar = () => {
                   style={{ cursor: "pointer", borderRadius: "50%" }}
                 />
               </Box>
-              <Box>
+              <Box textAlign="center">
                 <Typography
                   variant="h2"
                   color={colors.grey[100]}
