@@ -17,6 +17,11 @@ import TimelineOutlinedIcon from "@mui/icons-material/TimelineOutlined";
 import MenuOutlinedIcon from "@mui/icons-material/MenuOutlined";
 import MapOutlinedIcon from "@mui/icons-material/MapOutlined";
 
+const Item = ({title, to, icon, selected, setSelected}) => {
+  const theme = useTheme();
+  const colors = tokens(theme.palette.mode);
+}
+
 const Sidebar = () => {
   const theme = useTheme();
   const colors = tokens(theme.palette.mode);
@@ -60,7 +65,7 @@ const Sidebar = () => {
                 ml="15px"
               >
                 <Typography variant="h3" color={colors.grey[100]}>
-                  ADAMANT ADMIN
+                  BALLISTIC ADMIN
                 </Typography>
                 <IconButton onClick={() => setIsCollapsed(!isCollapsed)}>
                   <MenuOutlinedIcon />
@@ -71,7 +76,7 @@ const Sidebar = () => {
           {/* User */}
           {!isCollapsed && (
             <Box>
-              <Box>
+              <Box display="flex" justifyContent="center" alignItems="center">
                 <img
                   alt="profile-user"
                   width="100px"
@@ -92,7 +97,7 @@ const Sidebar = () => {
                 <Typography
                   variant="h5"
                   color={colors.greenAccent[500]}
-                >Adamant Industries</Typography>
+                >Ballistic Industries</Typography>
               </Box>
             </Box>
           )}
