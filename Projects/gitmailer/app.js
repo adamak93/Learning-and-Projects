@@ -7,6 +7,7 @@ const nodemailer = require("nodemailer");
 const octokit = new Octokit({ 
     auth: process.env.GH_KEY, 
 });
+
 var commitDate = ""; 
 var currentLocaleDate ="";
 
@@ -27,6 +28,13 @@ const mailNoCommitOptions = {
     text: 'Hello! We are writing to inform you a Git commit has NOT been submitted to the Learning and Projects repository in the last 24 hours.',
 };
 
+const mailCommitOptions = {
+    from:  process.env.FROM_EMAIL,
+    to: process.env.CC_EMAIL,
+    subject: 'Git Repo Detection Alert' ,
+    text: 'Hello! We are writing to inform you a Git commit has been submitted to the Learning and Projects repository in the last 24 hours.',
+};
+
 const transporter = nodemailer.createTransport({
     host:"smtp-mail.outlook.com",
     secureConnection: false, // TLS requires secureConnection to be false
@@ -43,15 +51,17 @@ const transporter = nodemailer.createTransport({
 cron.schedule('59 23 * * 1-6 ', () => {
     getCommitsByDay();
     if (currentLocaleDate != commitDate ) {
-        console.log("No Commit Detected! Sending failure notification email.")
         transporter.sendMail(mailNoCommitOptions, (error, info) => {
             if(error) {
                 console.log(error);
             }
         });
     } else {
-        console.log("Commit detected, exiting loop")
-    }
+        transporter.sendMail(mailCommitOptions, (error, info) => {
+            if(error) {
+                console.log(error);
+            }
+        });    }
 }, {
     scheduled: true,
     timezone: "America/Toronto"
