@@ -8,30 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "8d814d5d6b78c10a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Daily Notes/16 - December 7th, 2022.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ae88218c8c7bbcbd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Daily Notes/17 - December 9th, 2022.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "b382f97721cbb8c3",
             "type": "leaf",
             "state": {
@@ -42,9 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "57d1a91486163ce8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Daily Notes/19 - January 9th, 2023.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -110,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily Notes/18 - December 21st, 2022.md",
+                "file": "Daily Notes/19 - January 9th, 2023.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daily Notes/18 - December 21st, 2022.md",
+                "file": "Daily Notes/19 - January 9th, 2023.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily Notes/18 - December 21st, 2022.md"
+                "file": "Daily Notes/19 - January 9th, 2023.md"
               }
             }
           }
@@ -171,8 +159,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b382f97721cbb8c3",
+  "active": "57d1a91486163ce8",
   "lastOpenFiles": [
+    "Daily Notes/18 - December 21st, 2022.md",
+    "Daily Notes/19 - January 9th, 2023.md",
     "Daily Notes/17 - December 9th, 2022.md",
     "Daily Notes/16 - December 7th, 2022.md",
     "Daily Notes/15 - December 6th, 2022.md",
@@ -180,8 +170,6 @@
     "Daily Notes/13 - December 3rd, 2022.md",
     "Knowledge/React Apps to Build.md",
     "Tutorials/Github Email Notifier.md",
-    "Problems to Solve/Untitled.md",
-    "Problems to Solve/GitHub Email Notifier.md",
-    "Knowledge/Supabase products.png"
+    "Problems to Solve/Untitled.md"
   ]
 }
