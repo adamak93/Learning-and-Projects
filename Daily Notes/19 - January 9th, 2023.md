@@ -15,4 +15,6 @@ So let's catalogue things in a To-Do List of sorts:
 
 Mission's clear, need to get to work.
 
+UPDATE: I don't think I handled my errors and exceptions at all.  Hence the crashes and lack of information from railway, so some errorhandling/exception code is warranted. Could also try it again on another platform or just run the whole thing locally on my machine before midnight, dunno yet. exploring other solutions.
+
 -Adam
