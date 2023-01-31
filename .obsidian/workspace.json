@@ -42,9 +42,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "2756d46caf535903",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Daily Notes/21 - January 30th, 2023.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "195c63e9b4b2d81b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Daily Notes/21 - January 30th, 2023.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -110,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily Notes/20 - January 10th, 2023.md",
+                "file": "Daily Notes/21 - January 30th, 2023.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daily Notes/20 - January 10th, 2023.md",
+                "file": "Daily Notes/21 - January 30th, 2023.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily Notes/20 - January 10th, 2023.md"
+                "file": "Daily Notes/21 - January 30th, 2023.md"
               }
             }
           }
@@ -171,17 +195,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "de7519ed1ac96f7d",
+  "active": "195c63e9b4b2d81b",
   "lastOpenFiles": [
-    "Daily Notes/19 - January 9th, 2023.md",
+    "Knowledge/Untitled.md",
+    "Daily Notes/21 - January 30th, 2023.md",
+    "Knowledge/ReactAdmin.md",
+    "Tutorials/Github Email Notifier.md",
     "Daily Notes/20 - January 10th, 2023.md",
+    "Daily Notes/19 - January 9th, 2023.md",
     "Daily Notes/18 - December 21st, 2022.md",
     "Daily Notes/17 - December 9th, 2022.md",
     "Daily Notes/16 - December 7th, 2022.md",
-    "Daily Notes/15 - December 6th, 2022.md",
-    "Daily Notes/14 - December 5th, 2022.md",
-    "Daily Notes/13 - December 3rd, 2022.md",
-    "Knowledge/React Apps to Build.md",
-    "Tutorials/Github Email Notifier.md"
+    "Daily Notes/15 - December 6th, 2022.md"
   ]
 }
